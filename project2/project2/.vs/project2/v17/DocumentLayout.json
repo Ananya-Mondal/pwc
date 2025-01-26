@@ -1,42 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\pwc\\project2\\project2\\",
+  "WorkspaceRootPath": "D:\\pwc1\\pwc\\project2\\project2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc\\project2\\project2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc\\project2\\project2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc1\\pwc\\project2\\project2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc\\project2\\project2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc\\project2\\project2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc\\project2\\project2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc\\project2\\project2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc\\project2\\project2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc1\\pwc\\project2\\project2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc\\project2\\project2\\data\\myfliehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:data\\myfliehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc1\\pwc\\project2\\project2\\data\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:data\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc\\project2\\project2\\project2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:project2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc1\\pwc\\project2\\project2\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc1\\pwc\\project2\\project2\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,117 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "product.cs",
-              "DocumentMoniker": "D:\\pwc\\project2\\project2\\Models\\product.cs",
-              "RelativeDocumentMoniker": "Models\\product.cs",
-              "ToolTip": "D:\\pwc\\project2\\project2\\Models\\product.cs",
-              "RelativeToolTip": "Models\\product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T09:02:31.86Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\pwc\\project2\\project2\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\pwc\\project2\\project2\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAArAAAA",
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "D:\\pwc1\\pwc\\project2\\project2\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderDetailsController.cs",
+              "ToolTip": "D:\\pwc1\\pwc\\project2\\project2\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "Controllers\\OrderDetailsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwB0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T03:17:26.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\pwc\\project2\\project2\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "D:\\pwc\\project2\\project2\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAuwDsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T03:12:10.738Z",
+              "WhenOpened": "2025-01-26T14:35:54.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "D:\\pwc\\project2\\project2\\Data\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
-              "ToolTip": "D:\\pwc\\project2\\project2\\Data\\ApplicationDBContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\pwc1\\pwc\\project2\\project2\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "D:\\pwc1\\pwc\\project2\\project2\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA4AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T02:48:02.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\pwc\\project2\\project2\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\pwc\\project2\\project2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T14:54:26.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "project2.csproj",
-              "DocumentMoniker": "D:\\pwc\\project2\\project2\\project2.csproj",
-              "RelativeDocumentMoniker": "project2.csproj",
-              "ToolTip": "D:\\pwc\\project2\\project2\\project2.csproj",
-              "RelativeToolTip": "project2.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-19T14:49:05.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MyFlieHandler.cs",
-              "DocumentMoniker": "D:\\pwc\\project2\\project2\\Data\\MyFlieHandler.cs",
-              "RelativeDocumentMoniker": "Data\\MyFlieHandler.cs",
-              "ToolTip": "D:\\pwc\\project2\\project2\\Data\\MyFlieHandler.cs",
-              "RelativeToolTip": "Data\\MyFlieHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T14:22:32.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "productsController.cs",
-              "DocumentMoniker": "D:\\pwc\\project2\\project2\\Controllers\\productsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\productsController.cs",
-              "ToolTip": "D:\\pwc\\project2\\project2\\Controllers\\productsController.cs",
-              "RelativeToolTip": "Controllers\\productsController.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAcwFEAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T14:05:07.278Z",
+              "WhenOpened": "2025-01-26T13:58:23.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\pwc\\project2\\project2\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\pwc\\project2\\project2\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-24T17:33:07.577Z",
+              "Title": "OrderView.cs",
+              "DocumentMoniker": "D:\\pwc1\\pwc\\project2\\project2\\Data\\OrderView.cs",
+              "RelativeDocumentMoniker": "Data\\OrderView.cs",
+              "ToolTip": "D:\\pwc1\\pwc\\project2\\project2\\Data\\OrderView.cs",
+              "RelativeToolTip": "Data\\OrderView.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA3wAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:51:19.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "D:\\pwc1\\pwc\\project2\\project2\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
+              "ToolTip": "D:\\pwc1\\pwc\\project2\\project2\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAywB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:50:42.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "productsController.cs",
+              "DocumentMoniker": "D:\\pwc1\\pwc\\project2\\project2\\Controllers\\productsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\productsController.cs",
+              "ToolTip": "D:\\pwc1\\pwc\\project2\\project2\\Controllers\\productsController.cs",
+              "RelativeToolTip": "Controllers\\productsController.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAiwJAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:38:08.221Z",
               "EditorCaption": ""
             }
           ]

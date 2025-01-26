@@ -4,7 +4,7 @@ function Home() {
   
   return (
     <div>
-      This Home
+      <center><img src='public\home.avif'/></center>
     </div>
   )
 }

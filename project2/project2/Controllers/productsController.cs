@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using project2.Data;
 using project2.Models;
 
@@ -13,6 +14,7 @@ namespace project2.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize]
     public class productsController : ControllerBase
     {
         private readonly ApplicationDBContext _context;
@@ -23,7 +25,7 @@ namespace project2.Controllers
         }
 
         // GET: api/products
-        [Authorize]
+        
         [HttpGet]
         public async Task<ActionResult<IEnumerable<product>>> GetProducts()
         {
@@ -31,7 +33,7 @@ namespace project2.Controllers
         }
 
         // GET: api/products/5
-        [Authorize]
+        
         [HttpGet("{id}")]
         public async Task<ActionResult<product>> Getproduct(int id)
         {
@@ -47,13 +49,20 @@ namespace project2.Controllers
 
         // PUT: api/products/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize]
+        
         [HttpPut("{id}")]
-        public async Task<IActionResult> Putproduct( int id, product product)
+        public async Task<IActionResult> Putproduct( int id, [FromForm] product product, IFormFile fl =null)
         {
             if (id != product.Id)
             {
                 return BadRequest();
+            }
+            if (fl != null)
+            {
+                if (fl.Length > 0)
+                {
+                    product.Image_Name = new MyFlieHandler().Upload(fl);
+                }
             }
 
             _context.Entry(product).State = EntityState.Modified;
@@ -79,7 +88,7 @@ namespace project2.Controllers
 
         // POST: api/products
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize]
+        
         [HttpPost]
         public async Task<ActionResult<product>> Postproduct([FromForm] product product,IFormFile fl)
         {
@@ -94,7 +103,7 @@ namespace project2.Controllers
         
 
         // DELETE: api/products/5
-        [Authorize]
+        
         [HttpDelete("{id}")]
         public async Task<IActionResult> Deleteproduct(int id)
         {
@@ -116,6 +125,25 @@ namespace project2.Controllers
             
 
 
+        }
+
+        // GET: api/products
+        
+        [HttpGet("UserProduct/{Email}")]
+        public async Task<ActionResult<IEnumerable<product>>> UserProduct(string Email)
+        {
+            
+
+            return await _context.Products.FromSqlRaw("SELECT * From Products Where CreatedBy='"+ Email + "'").ToListAsync();
+
+
+            //return await _context.Products.ToListAsync();
+        }
+
+        [HttpGet("OrderView/{id}")]
+        public async Task<ActionResult<IEnumerable<OrderView>>> OrderView(int id)
+        {
+            return await _context.OrderView.FromSqlRaw("SELECT * From Order_Details_View Where Id=" + id).ToListAsync();
         }
     }
 }

@@ -10,8 +10,15 @@ function Edit() {
     const[pName,setPName]=useState("");
     const[pPrice,setPPrice]=useState("");
     const[pQOH,setQOH]=useState("");
+    const[pDesc,setDesc]=useState("");
+    const[pCatagoty,setCatagory]=useState("");
+    const[CreatedBy,setCreatedBy]=useState("");
+    const[pError,setpError]=useState([]);
+
     const[imgURL,setURL]=useState("");
     const[imgName,setImgName]=useState("");
+
+    const[image_data,setImagedata]=useState(null);
     
 
     useEffect(()=>{
@@ -27,9 +34,13 @@ function Edit() {
             setPName(res.data.name);
             setPPrice(res.data.price);
             setQOH(res.data.qih);
+            setDesc(res.data.description);
+            setCatagory(res.data.category);
+            setCreatedBy(res.data.createdBy);
             //https://localhost:7119/images"+{product.Image_Name}
             //console.log(res.data);
-            console.log(imgURL);
+           // console.log(res.data.createdBy);
+            //console.log(CreatedBy);
         },
         (err)=>{
             //console.log(`Bearer ${localStorage.getItem('AnanyaToken')}`);
@@ -40,11 +51,25 @@ function Edit() {
 
     function MakePost(id) {
 
-        var pdata={"id": id, "name": pName, "qih":pQOH, "price":pPrice, "image_Name":imgName};
+       
+       
+        const formData=new FormData();
+        formData.append("Id",id);
+        formData.append("Name",pName);
+        formData.append("price",pPrice);
+        formData.append("qih",pQOH);
+        formData.append("Image_Name",imgName);
+        formData.append("fl",image_data);
+        formData.append("Category",pCatagoty);
+        formData.append("Description",pDesc);
+        formData.append("CreatedBy",CreatedBy);
 
-        Axios.put("https://localhost:7119/api/products/"+id,pdata,{
+        //var pdata={"id": id, "name": pName, "qih":pQOH, "price":pPrice, "image_Name":imgName,"description": pDesc,"category": pCatagoty, "createdBy": user.email};
+
+        Axios.put("https://localhost:7119/api/products/"+id,formData,{
             headers:{
-                'Authorization':'Bearer '+localStorage.getItem('AnanyaToken')
+                'Authorization':'Bearer '+localStorage.getItem('AnanyaToken'),
+                'Content-Type':'multipart/form-data'
             }
         })
         .then((res)=>{
@@ -52,6 +77,9 @@ function Edit() {
         },
         (err)=>{
             //console.log(`Bearer ${localStorage.getItem('AnanyaToken')}`);
+            
+            
+            setpError(err.response.data.errors);
             console.log(err);
         }
     )
@@ -65,30 +93,71 @@ function Edit() {
                     <td align='Center'>
                         <br />
                         <br />
-                        <br />
-                        <br />
-                        <br />
+                        
                     </td>
                 </tr>
                 <tr>
                     <td align='Center'>
-                        <table>
+                        <table width="30%">
                             <tr>
                                 <td>
                                     <div className="form-group">
                                         <img src={imgURL} width="200" height="200"/>
                                     </div>
+                                    <div>
+                                    <label >Name</label>
+                                        <input type="text" className="form-control" id="name" value={pName} onChange={(e)=>setPName(e.target.value)}  />
+                                        {pError.Name &&
+                                            <span className="btn btn-danger">
+                                                {pError.Name[0]}
+                                            </span>
+                                        }
+                                    </div>
                                     <div className="form-group">
-                                        <label >Name</label>
-                                        <input type="text" className="form-control" id="name" value={pName} name="name" onChange={(e)=>setPName(e.target.value)}  />
+                                        <label >Description</label>
+                                        <textarea className="form-control"  rows="3" id="Description" value={pDesc} onChange={(e)=>setDesc(e.target.value)}></textarea>
+                                        
+                                        {pError.Description &&
+                                            <span className="btn btn-danger">
+                                                {pError.Description[0]}
+                                            </span>
+                                        }
+                                    </div>
+                                    <div className="form-group">
+                                        <label >Category</label>
+                                        <input type="text" className="form-control" id="Category" value={pCatagoty} onChange={(e)=>setCatagory(e.target.value)}  />
+                                        {pError.Category &&
+                                            <span className="btn btn-danger">
+                                                {pError.Category[0]}
+                                            </span>
+                                        }
                                     </div>
                                     <div className="form-group">
                                         <label >Price</label>
-                                        <input type="text" className="form-control" id="price" value={pPrice} name="price" onChange={(e)=>setPPrice(e.target.value)} />
+                                        <input type="text" className="form-control" id="price" value={pPrice} onChange={(e)=>setPPrice(e.target.value)} />
+                                        {(pPrice<=0) &&
+                                            <span className="btn btn-danger">
+                                                Product price can not be {pPrice}
+                                            </span>
+                                        }
                                     </div>
                                     <div className="form-group">
                                         <label >Quantity</label>
-                                        <input type="text" className="form-control" id="qoh" value={pQOH} name="qoh" onChange={(e)=>setQOH(e.target.value)} />
+                                        <input type="text" className="form-control" id="qoh"  value={pQOH} onChange={(e)=>setQOH(e.target.value)} />
+                                        {(pQOH<=0)&&
+                                            <span className="btn btn-danger">
+                                                Product quantity can not be {pQOH}
+                                            </span>
+                                        }
+                                    </div>
+                                    <div className="form-group">
+                                        <label >Image of Product</label>
+                                        <input type="file" className="form-control" id="prod_image"  onChange={(e)=>setImagedata(e.target.files[0])}  />
+                                        {pError.fl &&
+                                            <span className="btn btn-danger">
+                                                {pError.fl[0]}
+                                            </span>
+                                        }
                                     </div>
                                     
                                     <div className="form-group">

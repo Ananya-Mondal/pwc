@@ -23,7 +23,7 @@ function Product() {
     },[]);
  function Edit(id) {
     localStorage.setItem('Id',id);
-    console.log(localStorage.getItem('Id'));
+    
     navigate("/EditProduct");
     
  }
@@ -54,12 +54,13 @@ function Product() {
         <br/>
         
         <center><h3>Product List</h3></center>
-        <Link to="/AddProduct"><button type="button" className="btn btn-success">Add</button></Link>
+        
       <table width="100%">
         <tr>
             <th>Name</th>
             <th>QOH</th>
             <th>Price</th>
+            <th>Created By</th>
             <th></th>
         </tr>
         {products.map((product)=>{
@@ -68,6 +69,7 @@ function Product() {
                     <td>{product.name}</td>
                     <td>{product.qih}</td>
                     <td>{product.price}</td>
+                    <td>{product.createdBy}</td>
                     <td>
                         <button type="button" className="btn btn-danger" onClick={()=>Del(product.id)}>Delete</button>
                         <button type="button" className="btn btn-primary" onClick={()=>Edit(product.id)}>Edit</button>

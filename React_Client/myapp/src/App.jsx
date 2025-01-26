@@ -11,6 +11,17 @@ import Product from './Product'
 import Create from './Create'
 import Edit from './Edit'
 import Profile from './Profile'
+import UserProduct from './UserProduct'
+import BuyProduct from './BuyProduct'
+import UserProductEdit from './UserProductEdit'
+import Users from './Users'
+import AddUser from './AddUser'
+import EditUser from './EditUser'
+import ShowProduct from './ShowProduct'
+import ViewCart from './ViewCart'
+import ViewOrder from './ViewOrder'
+import ViewOrderProduct from './ViewOrderProduct'
+
 
 
 
@@ -28,9 +39,22 @@ function App() {
         <Route path='/SignUp' element={<SignUp/>} />
         <Route path='/Login' element={<Login/>} />
         <Route path='/Product' element={<Product/>} />
+        <Route path='/Users' element={<Users/>} />
         <Route path='/AddProduct' element={<Create/>} />
         <Route path='/EditProduct' element={<Edit/>} />
         <Route path='/Profile' element={<Profile/>} />
+        <Route path='/UserProduct' element={<UserProduct/>} />
+        <Route path='/BuyProduct' element={<BuyProduct/>} />
+        <Route path='/UserProductEdit' element={<UserProductEdit/>} />
+        <Route path='/AddUser' element={<AddUser/>} />
+        <Route path='/EditUser' element={<EditUser/>} />
+        <Route path='/ShowProduct' element={<ShowProduct/>} />
+        <Route path='/ViewCart' element={<ViewCart/>} />
+        <Route path='/ViewOrder' element={<ViewOrder/>} />
+        <Route path='/ViewOrderProduct' element={<ViewOrderProduct/>} />
+
+        
+
 
       </Routes>
       </BrowserRouter>
