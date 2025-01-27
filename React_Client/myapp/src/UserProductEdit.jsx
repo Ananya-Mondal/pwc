@@ -134,13 +134,19 @@ function UserProductEdit() {
                         id="Category"
                         onChange={(e) => setCatagory(e.target.value)}
                       >
-                        <option value="">Select Country</option>
-                        <option value="EP">Electronic products</option>
-                        <option value="CJ">Coats and jackets</option>
-                        <option value="RJ">Rings and jewelry</option>
-                        <option value="MP">Mobile phones</option>
+                        <option value="">Select Category</option>
+                        <option value="Electronic products">
+                          Electronic products
+                        </option>
+                        <option value="Coats and jackets">
+                          Coats and jackets
+                        </option>
+                        <option value="Rings and jewelry">
+                          Rings and jewelry
+                        </option>
+                        <option value="Mobile phones">Mobile phones</option>
                       </select>
-                      
+
                       {pError.Category && (
                         <span className="btn btn-danger">
                           {pError.Category[0]}
