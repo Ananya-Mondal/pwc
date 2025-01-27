@@ -18,7 +18,7 @@ function SignUp() {
 
   const navigate = useNavigate();
   function MakePost() {
-    alert('post'+State);
+    
 
     Axios.post("https://localhost:7119/api/Users/SingUp", {
       Name,
