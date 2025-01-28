@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\pwc1\\pwc\\project2\\project2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc1\\pwc\\project2\\project2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc1\\pwc\\project2\\project2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc1\\pwc\\project2\\project2\\data\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:data\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc1\\pwc\\project2\\project2\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc1\\pwc\\project2\\project2\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|d:\\pwc1\\pwc\\project2\\project2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB604992-0B6C-4A94-9D02-92081BDDAA29}|project2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderDetailsController.cs",
-              "DocumentMoniker": "D:\\pwc1\\pwc\\project2\\project2\\Controllers\\OrderDetailsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderDetailsController.cs",
-              "ToolTip": "D:\\pwc1\\pwc\\project2\\project2\\Controllers\\OrderDetailsController.cs",
-              "RelativeToolTip": "Controllers\\OrderDetailsController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwB0AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T14:35:54.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\pwc1\\pwc\\project2\\project2\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "D:\\pwc1\\pwc\\project2\\project2\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA4AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:58:23.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderView.cs",
-              "DocumentMoniker": "D:\\pwc1\\pwc\\project2\\project2\\Data\\OrderView.cs",
-              "RelativeDocumentMoniker": "Data\\OrderView.cs",
-              "ToolTip": "D:\\pwc1\\pwc\\project2\\project2\\Data\\OrderView.cs",
-              "RelativeToolTip": "Data\\OrderView.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAA3wAUAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:51:19.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "D:\\pwc1\\pwc\\project2\\project2\\Data\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
-              "ToolTip": "D:\\pwc1\\pwc\\project2\\project2\\Data\\ApplicationDBContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAywB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:50:42.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "productsController.cs",
-              "DocumentMoniker": "D:\\pwc1\\pwc\\project2\\project2\\Controllers\\productsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\productsController.cs",
-              "ToolTip": "D:\\pwc1\\pwc\\project2\\project2\\Controllers\\productsController.cs",
-              "RelativeToolTip": "Controllers\\productsController.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAiwJAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:38:08.221Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\pwc1\\pwc\\project2\\project2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\pwc1\\pwc\\project2\\project2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-28T16:36:16.195Z",
               "EditorCaption": ""
             }
           ]
